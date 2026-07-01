@@ -1,0 +1,5 @@
+*POO/OOP(Programação Orientada a Objeto)
+-Serve para representar elementos do mundo real nos sistemas computacionais
+-Os elementos se chamam OBJETOS
+
+*OOAD(Object Oriented Analysis and Design/Projeto e Analise de Sistemas Orientado a Objeto)

@@ -1,0 +1,7 @@
+*Mais sobre classes/DUNDERS
+-SEMPRE DOCUMENTE AS SUAS CLASSES/DEFINIÇÕES(siga a regra de deixar o seu código organizado)
+-O que são Dunders?(são double underlines)
+	-.__doc__(atributo)[mostra a documentação de alguma classe/objeto/comando]
+	-.__str__(metodo)[para substituir a saida se apenas você colocar a classe dentro do seu print, sem nenhum metódo complementando ela]
+	-.__dict__(atributo)[mostra os atributos de uma classe em forma de dicionario]
+	-.__getstate__(metodo)[faz a mesma função do dict, mas por ser um metodo, ele pode ser personalizado]

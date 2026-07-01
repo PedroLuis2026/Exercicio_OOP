@@ -1,0 +1,40 @@
+#Objeto físico
+Fazer_Sorvete
+--
++ quantidade_leite
++ quantidade_gelo
++ liquidificador_limpo
++ sabor_sorvete
+--
++ bater_liquidificador()
++ adicionar_gulosemas()
++ derreter_sorvete()
++ tomar_sorvete()
+--
+quantidade_leite == 500ml
+quantidade_gelo == 100g
+liquidificador_limpo == False
+sabor_sorvete == Nutella
+
+#Objeto abstrato
+mensagem_whatsapp
+--
++ quantidade_caracteres
++ hora_de_envio
++ mensagem_entregue
++ adicionar_contato
++ excluir_contato
++ bloquear_contato
+--
++ editar_mensagem()
++ excluir_mensagem()
++ responder()
++ encaminhar()
++ enviar_audio()
+--
++ quantidade_caracteres == 70
++ hora_de_envio == 8:09
++ mensagem_entregue == True
++ adicionar_contato == False
++ excluir_contato == True
++ bloquear_contato == True

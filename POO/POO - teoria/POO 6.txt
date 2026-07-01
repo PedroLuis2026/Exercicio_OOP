@@ -1,0 +1,57 @@
+*Os 4 pilares da POO
+
+-Abstração
+	.A prática de ignorar o irrelevante e se focar estritamente no essencial
+	.Principais vantagens
+		-Maior legibilidade
+		-Padronização
+		-Simplificação
+		-Segurança
+	.Existe a abstração de dados, que acontece quando ignoramos informações desnecessárias para o escopo do projeto.
+	.Existe a abstração de processos, quando não precisamos saber como um método faz seu trabalho, apenas sabe que ela existe pela interface.
+	.Abstrato:
+		-Uma classe abstrata nunca será instanciada(nunca virará objeto), já que ela será usada apenas como base para as Subclasses.
+		-Ao definir um conjunto de métodos abstratos, dizemos que estamos criando a interface pública da Classe.
+		-Uma classe abstrata pode ter métodos abstratos que deverão ser obrigatoriamente implementados nas Subclasses.
+		-Mas uma classe abstrata pode ter métodos concretos se eles funcionarem da mesma maneira para todas as Subclasses(DRY
+-Encapstulamento
+	.Visa manter a integridade do sistema, protegendo o estado interno do objeto contra interferência externa não regulamentada.
+	.Principais vantagens:
+		-Segurança e controle
+		-Facilidade de manutenção
+		-Flexibilidade e reutilização
+		-Redução de efeitos colaterais
+	.Para realizar essa proteção, precisamos entender:
+		-Visibilidade dos atributos
+		-Acesso aos dados protegidos
+	.Visibilidade
+		-Existem três tipos de visibilidade para tributos em liguagens POO:
+			.public + (Atributos públicos são acessiveis nas classes filhas, na propria classe e em qualquer outro lugar.)
+			.protected # [em python para deixar o atriuto protegido é _NomeDoAtributo](Atributos protegidos são acessiveis apenas na classe atual e nas classes filhas.)
+			.private - [em python para deixar o atriuto privado é __NomeDoAtributo](Atributos privados podem é acessivel apenas na própria classe.)
+			
+-Herança
+	.É um relacionamento entre itens gerais (ancestrais) e tipos mais específicos (descendentes) desses itens, que herdam atributos e métodos dos níveis superiores
+	.Principais vantagens:
+		-Reutilização de código
+		-Organização hierárquica
+		-Facilita manutenção
+		-Extensibilidade
+		-Suporte a polimorfismo
+	.Nomeclaturas:
+		-Superclasse(Classe em que a Subclasse irá herdar seus comportamentos/caracteristicas)
+		.Classe Base
+		.Classe Ancestral
+		.Classe Mãe
+		
+		-Herança(A ponte da Subclasse ter caracteristicas/comportamentos da Superclasse)
+		.Generalização
+		.Relação do tipo "É um"(EX:A classe Filha é um objeto da mesma caracteristica e comportamento da mãe)
+
+		-Subclasse(A Classe que herda as caracteristicas/comportamentos da Superclasse)
+		.Classe Derivada
+		.Descendente
+		.Classe Filha
+
+	.Para A Subclasse herdar todos os parametros da Superclasse, no método criador devemos usar o método super().__init__(parametros da superclasse), e devemos por esses parametros no método contrutor da Subclasse também. 
+-Polimorfismo

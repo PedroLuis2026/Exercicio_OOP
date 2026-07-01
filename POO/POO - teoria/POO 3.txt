@@ -1,0 +1,16 @@
+*Significados das classificações de POO
+
+-Classe
+.O conceito de classe é o formato a ser seguido sempre que é preciso fazer objetos do mesmo tipo/mesmas caracteristicas/mesmos comportamentos
+.A classificação das classes são definidas em 3 retangulos:
+	-O primeiro é o nome da classe/que tipo de objeto será gerado pro essa classe
+	-O segundo são as características que aquela classe/o objeto vai possuir
+	-O terceiro e ultimo são as coisas que aquela classe pode gerar/fazer
+	OBS: o segundo retángulo são os atributos da classe, já o terceiro são os métodos
+
+-Instância
+.O conceito de instanciar é seguir o padrão que foi definido na classe para criar um objeto
+
+-Objeto
+."Objeto é uma coisa material ou abstrata que é feita apartir de uma classe e pode ser descrita por meio de seus atributos, métodos e estado atual."
+.Os estados de um objeto são a valorização dos atributos de uma determinada classe ao passar do tempo(os valores dirigidos aos atributos)

@@ -1,0 +1,5 @@
+*"Objetos são variáveis evoluidas"
+-Um objeto é uma variável que além de guardar dados, pode executar funcionalidades.
+OBS:Se o código dentro da classe não tiver parenteses, é um atributo, se possuir parenteses, é um objeto.
+
+-O self dentro do método contrutor de objeto, é um nome genérico para se referir ao propio objeto

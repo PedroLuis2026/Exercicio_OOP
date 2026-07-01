@@ -1,0 +1,24 @@
+*Organização
+-A Orientação a Objeto na programação, é como um carro, o carro completo é o sistema e cada componentedentro dele são os objetos.
+OBS: Fazemos com que no sistema, cada objeto faça exclusivamente o seu trabalho.
+
+*As 6 vantagens da POO/ "Comer Nada"
+
+-Confiavel
+O isolamento entre as partes gera algo mais seguro. Ao alterar uma das partes, nenhuma outra é afetada
+
+-Oportuno
+Ao dividir tudo em partes, cada uma delas pode ser desenvolvida em paralelo.
+
+-Manutenível
+Atualizar é mais fácil. Uma pequena alteração vai beneficiar todas as partes relacionadas.
+
+-Extensível
+Um sistema não deve ser estático. Tudo deve mudar e crescer para permanecer útil.
+
+-Reutilizável
+Objetos que foram criados para um sistema podem ser aproveitados em outros sistemas.
+
+-Natural
+Mais fácil de entender. Maior atenção às funccionalidades do que aos detalhes de implementação
+
