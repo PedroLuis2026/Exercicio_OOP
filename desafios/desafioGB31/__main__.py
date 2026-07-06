@@ -3,8 +3,8 @@ from rich import print, inspect
 def main():
     r = Retangulo(8, 4)
 
-    r.base = 23
-
+    r.base = 2
+    print(r.medidas)
     inspect(r, private=True, methods=True)
 if __name__ == "__main__":
     main()
